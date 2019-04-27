@@ -1,0 +1,16 @@
+{
+  "name": "masjid-omar",
+  "version": "1.0.0",
+  "description": "Masjid Omar Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohsin Hassan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
