@@ -1,4 +1,7 @@
 <% include partials/header %>
+    <div class="prayer-table">
+        <h1>PRAYER TABLE</h1>
+    </div>
     <div id="mainCarousel"class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
@@ -50,49 +53,32 @@
         </div>
     </div>
 
-    <div class="conainer-fluid d-flex">
-        <div class="row">
-            <div class="col-sm" style="background-color:grey;">
-                <h1 style="text-align: center;">Congregrational Prayers</h1>
-                <p>Along with the Five Dailiy Prayers, Masjid Omar Also offers Taraweh Prayers, as well as Eid Prayers</p>
-                <a href="#">Learn More</a>
-            </div>
-            <div class="col-sm">
-                    <h1>Quran Classes</h1>
-                    <p>Monday - Friday Quran Classes</p>
-                    <a href="#">Learn More</a>
-            </div>
-            <div class="col-sm" style="background-color:grey;">
-                    <h1>Girls and Boys Youth Group</h1>
-                    <p>Weekend Girls And Boys Youth Grousps</p>
-                    <a href="#">Learn More</a>
-            </div>
-            <div class="col-sm">
-                    <h1>Marriage Service</h1>
-                    <p>Nikkah Service</p>
-                    <a href="#">Learn More</a>
-            </div>
+    <div class="card-deck">
+        <div class="card">
+          <img src="/imgs/Quran1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Quran Classes</h5>
+            <p class="card-text">Quran Classes.</p>
+            <a class="btn btn-primary">Learn More</a>
+          </div>
         </div>
-    </div>
+        <div class="card">
+          <img src="/imgs/omarMasjid3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Congregrational Prayers</h5>
+            <p class="card-text">Along with the Five Dailiy Prayers, Masjid Omar Also offers Taraweh Prayers, as well as Eid Prayers</p>
+            <a class="btn btn-primary">Prayer Timing</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/imgs/omarMasjid3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Girls and Boys Youth Group</h5>
+            <p class="card-text">Weekend Girls And Boys Youth Grousps</p>
+            <a class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
 
-    <div class="contactUsForm">
-            <form>
-                    <div class="form-group">
-                            <label for="">First Name</label>
-                            <input type="text" class="form-control" id="firstName" placeholder="First Name">
-                    </div>
-                    <div class="form-group">
-                            <label for="">Last Name</label>
-                            <input type="text" class="form-control" id="lasttName" placeholder="Last Name">
-                    </div>
-                    <div class="form-group">
-                      <label for="email">Email address</label>
-                      <input type="email" class="form-control" id="email" placeholder="name@example.com">
-                    </div>
-                    <div class="form-group">
-                      <label for="Comments">Comments</label>
-                      <textarea class="form-control" id="Comments" rows="3"></textarea>
-                    </div>
-            </form>
-    </div>
+      <% include partials/contactus-form %>
 <% include partials/footer %>

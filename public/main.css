@@ -1,5 +1,22 @@
+body{
+
+    background: url(/imgs/omarMasjid2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.prayer-table{
+    background-color: black;
+    position: sticky;
+    top:0;
+    z-index: 100;
+    text-align: center
+}
+
 .carouselImage img {
-    opacity: 0.8;
+    /* opacity: 0.8; */
 }
 
 #footer{
@@ -8,4 +25,14 @@
 
 h1 {
     color: blue;
+}
+
+#contactUsForm {
+    background-color: black;
+    color: white;
+    
+}
+
+#contactUsForm form{
+   padding-bottom: 50px;   
 }
