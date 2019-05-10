@@ -1,12 +1,6 @@
-body{
-
-    background: url(/imgs/omarMasjid2.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
+body {
+    background-color: lightblue;
+  }
 .prayer-table{
     background-color: black;
     position: sticky;
@@ -32,7 +26,6 @@ h1 {
     background-color: black;
     color: white;
     margin-top:50px;
-    padding-top:25px;
     
 }
 
@@ -42,7 +35,7 @@ h1 {
 
 .card-deck {
     padding-top: 50px;
-    padding-left:50px;
+    padding-left:10px;
     padding-right: 50px;
 }
 
