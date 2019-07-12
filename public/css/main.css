@@ -537,6 +537,8 @@ input.search-form:hover {
 
 .features{
   padding: 0;
+  margin-left: auto;
+	margin-right: auto;
 }
 
 .feature-wrap {
@@ -570,8 +572,11 @@ input.search-form:hover {
   -o-transition: 500ms;
   transition: 500ms;
   float: left;
-  margin-right: 25px;
+
+  margin-left:auto;
+  margin-right:auto;
 }
+
 
 .feature-wrap i:hover {
   background: #43BD2C;
@@ -2521,6 +2526,11 @@ shortcodes page css
   display: inline-block;
   margin-left: 15px;
 }
+
+/*.prayertable .row {
+  margin-left: 500px;
+  margin-right:auto;
+}*/
 .prayer-times1{margin:10px;width:15em;float: left;}
 .prayer-times1 h3{background-color:rgba(206,206,206,0.32);padding-bottom:.5em;padding-top:.5em;text-align:center}
 .prayer-times2{margin:10px;width:15em;float: left;}
